@@ -1,10 +1,7 @@
 ![](fire.png) ![](sql.png)
-
 # Fire Department Response Analysis
 ## Problem
-
-Use SQL to process and analyze Fire Department Call Data and extract Industry KPI ike the number of incidents, response times, and shift categorization based on the time of day.
-This KPI are based on Alarm time, Turnout time, Travel time and Response time
+Use SQL to process and analyze Fire Department Call Data and extract KPI (Alarm time, Turnout time, Travel time and Response time) by works Shifts.
 
 ## Solution
 - Queried large datasets using complex joins and subqueries.
