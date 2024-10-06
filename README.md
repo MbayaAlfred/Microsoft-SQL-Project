@@ -29,8 +29,8 @@ This KPI are based on Alarm time, Turnout time, Travel time and Response time
   The query groups by multiple fields such as Call_Type, Create_Date, EventFirstDispatched, etc., which ensures that you can apply aggregate functions like COUNT.
 
 ## SQL Techniques Used
-- CASE statemens
-- Date functions
-- Aggregation
-- Window function (partition)
-### Access the visualization here
+  - CASE statemens
+  - Date functions
+  - Aggregation
+  - Window function (partition)
+### Access the Fire Department Dashboard here
