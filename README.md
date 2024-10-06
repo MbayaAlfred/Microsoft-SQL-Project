@@ -33,4 +33,4 @@ This KPI are based on Alarm time, Turnout time, Travel time and Response time
   - Date functions
   - Aggregation
   - Window function (partition)
-### Access the Fire Department Dashboard here[](www.google.com)
+### [Visit the Fire Department's Complete Power BI Report](https://www.firedept.org)
