@@ -1,3 +1,4 @@
+![](fire.png) ![](sql.png)
 
 # Fire Department Emergency Call Analysis
 ## Problem
