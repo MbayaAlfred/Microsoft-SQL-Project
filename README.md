@@ -8,7 +8,7 @@ This KPI are based on Alarm time, Turnout time, Travel time and Response time
 
 ## Solution
 - Queried large datasets using complex joins and subqueries.
-- Used `CASE` statements to flag suspicious transactions.
+- Used `CASE` statements to generate KPI's, and Work shifts.
 - Created summary reports using SQL `GROUP BY` and aggregation functions.
 
 ## Key Components of pre-aggregated data
