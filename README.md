@@ -1,7 +1,7 @@
 ![](fire.png) ![](sql.png)
 # Fire Department Response Analysis
 ## Problem
-Use SQL to process and analyze Fire Department Call Data and extract KPI (Alarm time, Turnout time, Travel time and Response time) by works Shifts.
+Use SQL to process and analyze Fire Department Call Data and extract KPI (Alarm time, Turnout time, Travel time and Response time) by Shift times.
 
 ## Solution
 - Queried large datasets using complex joins and subqueries.
