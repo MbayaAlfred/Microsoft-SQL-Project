@@ -1,7 +1,7 @@
 ![](fire.png) ![](sql.png)
 # Fire Department Response Analysis
 ## Problem
-Use SQL to process and analyze Fire Department Call Data and extract KPI (Alarm time, Turnout time, Travel time and Response time) by Shift times.
+Use SQL to process and analyze **Fire Department** Call Data and extract KPI (Alarm time, Turnout time, Travel time and Response time) by Shift times.
 
 ## Solution
 - Queried large datasets using complex joins and subqueries.
@@ -24,13 +24,62 @@ Use SQL to process and analyze Fire Department Call Data and extract KPI (Alarm 
   ResponseTime_11Mins: Whether the overall response time was under 11 minutes.
 - Grouping:
   The query groups by multiple fields such as Call_Type, Create_Date, EventFirstDispatched, etc., which ensures that you can apply aggregate functions like COUNT.
+  
+## Problem Statement
+The goal of this dashboard is to  analyze fire department response metrics, specifically focusing on Travel Rate and its Month-over-Month (MOM) Percentage Change. 
+The problem centers on identifying trends and potential inefficiencies in response times across:
+- Municipalities
+- Days of the Week
+- Shift Times
+- Call Sources
 
-## SQL Techniques Used
+![](report.png)
+
+## Observations and Insights
+ ### Overall Travel Rate and MOM Change:
+- Travel Rate is 42%, with a 6.29% MOM decrease. This suggests that travel times have decreased slightly compared to the previous month.
+  
+### Travel Rate and %MOM by Days of the Week:
+- Travel Rate is highest on **Sunday (53%)**, gradually decreasing throughout the week, with the lowest rate on Saturday (25%).
+- Monday (-28.21%)  : Major improvement in travel rate compared to the prior period.
+- Saturday (-40.79%): A sharp decline, possibly indicating operational challenges on weekends.
+  
+### Travel Rate by Call Source:
+- Calls from Officers result in the highest travel rates (100%).
+- **Phone calls and Automatic Number Identification** have lower rates and negative MOM changes, particularly Automatic Number Identification (-18.52%).
+  
+### Travel Rate by Shift Times:
+- **Highest travel rate** is during the **11 PM – 7 AM shift**  (45%), while 7 AM – 3 PM (44%) and 3 PM – 11 PM (40%) follow closely.
+- 7 AM – 3 PM (+16.90%) indicates improved response efficiency.
+- 11 PM – 7 AM (-21.05%) shows a decline in performance.
+
+![](problem.png)
+
+### **Conclusions**
+
+- Performance Issues on Weekends:
+  Travel rates drop sharply on Saturdays, possibly due to reduced staffing or increased demand.
+  Geographic Disparities:
+- Travel rates vary significantly between municipalities, suggesting potential challenges like road conditions, traffic, or resource allocation.
+  Shift Efficiency:
+- The nighttime shift _(11 PM – 7 AM)_ shows a decline in MOM performance, possibly due to staffing or visibility challenges.
+- Officer-initiated responses are the most efficient, whereas Automatic Number Identification may require process improvements.
+  
+### **Recommendations**
+
+- Investigate the causes of reduced efficiency on Saturdays and in specific municipalities.
+- Analyze operational processes during the **11 PM – 7 AM** shift to improve nighttime response times.
+- Review the effectiveness of **Automatic Number Identification** and explore enhancements to improve travel rates.
+
+
+
+## **SQL Techniques Used**
   - CASE statemens
   - Date functions
   - Aggregation
   - Window function (partition)
   - Sample SQL code:
+  - 
 CREATE VIEW vwFD_Data
 
 		AS
