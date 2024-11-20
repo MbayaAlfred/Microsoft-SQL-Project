@@ -113,4 +113,4 @@ CREATE VIEW vwFD_Data
     
 ### Interact with the report
 
-### _https://app.powerbi.com/reportEmbed?reportId=ec68accf-cd17-4e10-863b-dbed736eda64&autoAuth=true&ctid=78d1fb89-a6cc-4862-a67c-a7287504e26f_
+[Fire Department Response Analysis](https://app.powerbi.com/reportEmbed?reportId=ec68accf-cd17-4e10-863b-dbed736eda64&autoAuth=true&ctid=78d1fb89-a6cc-4862-a67c-a7287504e26f)
