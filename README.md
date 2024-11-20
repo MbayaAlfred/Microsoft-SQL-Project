@@ -61,5 +61,7 @@ CREATE VIEW vwFD_Data
 		GROUP BY	 Call_Source,Call_Type,Create_Date,Create_Year,Create_Month,EventFirstDispatched,
 					EventFirstArrive,EventFirstEnroute,LastKnownLatitude,LastKnownLongitude,FirstArriveEngine,
 					StartTransport,TransportArrive,Close_Date,Municipality,Beat
+    
 ### Interact with the report
-### _<iframe title="Fire Department Response Analysis" width="1140" height="541.25" src="https://app.powerbi.com/reportEmbed?reportId=ec68accf-cd17-4e10-863b-dbed736eda64&autoAuth=true&ctid=78d1fb89-a6cc-4862-a67c-a7287504e26f" frameborder="0" allowFullScreen="true"></iframe>_
+
+### _https://app.powerbi.com/reportEmbed?reportId=ec68accf-cd17-4e10-863b-dbed736eda64&autoAuth=true&ctid=78d1fb89-a6cc-4862-a67c-a7287504e26f_
