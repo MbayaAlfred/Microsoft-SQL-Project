@@ -79,7 +79,7 @@ The problem centers on identifying trends and potential inefficiencies in respon
   - Aggregation
   - Window function (partition)
   - Sample SQL code:
-  - 
+    
 CREATE VIEW vwFD_Data
 
 		AS
